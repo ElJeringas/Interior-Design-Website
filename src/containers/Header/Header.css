@@ -1,0 +1,51 @@
+.header{
+    margin-bottom: 10rem;
+    background-image:url("D:\Santiago\Desktop\an\src\assets\header.jpg") ;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.header__container{
+    min-height: 600px;
+    position: relative;
+}
+
+.header__content{
+    position: absolute;
+    bottom: -10rem;
+    padding: 2rem;
+    background-color: var(--primary-color);
+    border: 10px solid var(--white);
+}
+
+.header__content h4{
+    position: relative;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: var(--text-light);
+}
+
+.header__content h4::before{
+    position: absolute;
+    content: "";
+    bottom: -1rem;
+    left: 0;
+    height: 2px;
+    width: 40px;
+    background-color: var(--text-light);
+}
+
+.header__content h1{
+    width: 100%;
+    max-width: 600px;
+    font-size: 4rem;
+    font-weight: 400;
+    font-family: var(--font-alt);
+    color: var(--text-dark);
+}
+
+.header__content h1 span{
+    font-style: italic;
+}

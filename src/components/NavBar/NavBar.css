@@ -1,0 +1,47 @@
+nav{
+    max-width: var(--max-width);
+    margin: auto;
+    padding: 1rem;
+}
+
+.nav__links{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.links a{
+    font-weight: 500;
+    color: var(--text-light);
+    text-transform: capitalize;
+    transition: 0.3s;
+
+}
+
+.links a:hover{
+    color: var(--text-dark);
+}
+
+.nav__logo {
+    text-align: center;
+    cursor: pointer;
+}
+
+.nav__logo img{
+    margin: auto;
+    max-width: 250px;
+}
+
+.nav__logo h1{
+    font-size: 1.5rem;
+    font-family: var(--font-alt);
+    letter-spacing: 2px;
+    color: var(--text-dark);
+}
+
+.nav__logo p{
+    font-size: 0.8rem;
+    font-weight: 500;
+    letter-spacing: 2px;
+    color: var(--text-light);
+}

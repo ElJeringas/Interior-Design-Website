@@ -1,0 +1,42 @@
+.header_content h1 span{
+    font-style: italic;
+}
+
+.about__container{
+    padding: 10rem 1rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
+    align-items: center;
+}
+
+.about__content p{
+    margin-bottom: 2rem;
+    color: var(--text-light);
+}
+
+.about__content h4{
+    position: relative;
+    margin-bottom: 2rem;
+    padding-left: 5rem;
+    font-size: 1.5rem;
+    font-family: var(--font-alt);
+    color: var(--text-dark);
+}
+
+.about__content h4::before{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 2rem;
+    height: 100%;
+    width: 1rem;
+    background-color: var(--primary-color);
+}
+
+.about__image img{
+    margin: auto;
+    max-width: 400px;
+    outline: 2px solid var(--text-light);
+    outline-offset: 1rem;
+}
