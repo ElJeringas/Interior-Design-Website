@@ -12,27 +12,27 @@ const Projects = () => {
         <div className='display__col'>
             <img src={display_1} alt='display'/>
             <div className='display__content'>
-                <p>View our</p>
-                <h4>Portfolio</h4>
+                <p>Mira nuestro</p>
+                <h4>Catalogo</h4>
             </div>
             <img src={display_2} alt='display'/>
         </div>
         <div className='display__col'>
             <div className='display__content'>
-                <p>About Us</p>
-                <h4>Who we are</h4>
+                <p>Sobre Nosotros</p>
+                <h4>Quienes somos</h4>
             </div>
             <img src={display_3} alt='display'/>
             <div className='display__content'>
-                <p>Services</p>
-                <h4>What we do</h4>
+                <p>Galeria</p>
+                <h4>Imagenes</h4>
             </div>
         </div>
         <div className='display__col'>
             <img src={display_4} alt='display'/>
             <div className='display__content'>
-                <p>Contact us</p>
-                <h4>Message</h4>
+                <p>Contactos</p>
+                <h4>Mensajes</h4>
             </div>
             <img src={display_5} alt='display'/>
         </div>

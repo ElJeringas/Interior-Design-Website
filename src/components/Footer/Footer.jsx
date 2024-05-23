@@ -6,9 +6,9 @@ const Footer = () => {
     <footer className='footer'>
         <div className='section__container footer__container'>
             <img src={logo} alt='footer logo'/>
-            <h4>Esse sint reprehenderit labore cillum adipisicing id irure.</h4>
-            <p>Tempor voluptate nostrud pariatur anim et Lorem pariatur proident in mollit ipsum.</p>
-            <button>Contact Us</button>
+            <h4>An Anasha<br/>Adornos y recuerdos para toda ocacion y momento.</h4>
+            <p>Siguenos en nuestras redes sociales.</p>
+            <button>Contactos</button>
         </div>
         <div className='footer__bar'>
             <p>©️ 2024 Digital Canvas</p>

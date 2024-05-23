@@ -5,8 +5,8 @@ const Header = () => {
     <header className='header'>
         <div className='section__container header__container'>
             <div className='header__content'>
-                <h4>life beautifully</h4>
-                <h1>Design what makes you feel<span> at home.</span></h1>
+                <h4>Magic Garden</h4>
+                <h1>Disenos que te hacen sentir<span> en casa.</span></h1>
             </div>
         </div>
     </header>

@@ -4,8 +4,8 @@ const Banner = () => {
   return (
     <section className='banner'>
       <div className='section__container banner__container'>
-        <h4>Interior Design Studio</h4>
-        <p>Based in Loja, Ecuador.</p>
+        <h4>Diseno de Interiores</h4>
+        <p>Ubicados en Loja, Ecuador.</p>
       </div>
     </section>
   )

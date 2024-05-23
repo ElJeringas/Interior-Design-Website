@@ -6,21 +6,21 @@ const NavBar = () => {
     <nav>
         <ul className='nav__links'>
             <li className='links'>
-                <a href='#about'>About</a>
+                <a href='#about'>Conocenos</a>
             </li>
             <li className='links'>
-                <a href='#projects'>Projects</a>
+                <a href='#projects'>Projectos</a>
             </li>
             <li className='nav__logo'>
                 <img src={logo} alt='logo'/>
                 <h1>An Anasha</h1>
-                <p>Decorations</p>
+                <p>Decoraciones</p>
             </li>
             <li className='links'>
-                <a href='#services'>Services</a>
+                <a href='#services'>Galeria</a>
             </li>
             <li className='links'>
-                <a href='#contacts'>Contacts</a>
+                <a href='#contacts'>Contactos</a>
             </li>
         </ul>
     </nav>
