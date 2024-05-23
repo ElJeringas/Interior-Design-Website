@@ -1,0 +1,22 @@
+.banner{
+    padding: 10rem 0;
+    background-image: url('D:\Santiago\Desktop\an\src\assets\banner.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.banner__container{
+    text-align: center;
+    color: var(--white);
+    font-family: var(--font-alt);
+}
+
+.banner__container h4{
+    font-size: 4rem;
+    font-weight: 400;
+}
+
+.banner__container p{
+    font-size: 1.5rem;
+}

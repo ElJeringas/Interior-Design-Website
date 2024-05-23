@@ -49,3 +49,13 @@
 .header__content h1 span{
     font-style: italic;
 }
+
+@media (width < 600px) {
+    .header{
+        margin-bottom: 20rem;
+    }
+
+    .header__content{
+        bottom: -25rem;
+    }
+}

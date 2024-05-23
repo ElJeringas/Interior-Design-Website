@@ -45,3 +45,10 @@ nav{
     letter-spacing: 2px;
     color: var(--text-light);
 }
+
+@media (width < 600px) {
+    .links{
+        display: none;
+    }
+
+}
