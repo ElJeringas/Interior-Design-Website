@@ -13,6 +13,7 @@
 .about__content p{
     margin-bottom: 2rem;
     color: var(--text-light);
+    font-size: 1.15rem;
 }
 
 .about__content h4{
@@ -20,8 +21,10 @@
     margin-bottom: 2rem;
     padding-left: 5rem;
     font-size: 1.5rem;
+    font-weight: 500;
     font-family: var(--font-alt);
     color: var(--text-dark);
+    font-style: italic;
 }
 
 .about__content h4::before{

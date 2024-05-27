@@ -6,16 +6,14 @@ const About = () => {
     <section className='section__container about__container' id='about'>
         <div className='about__content'>
             <p>
-                Irure reprehenderit commodo magna incididunt ex mollit adipisicing eu in duis cupidatat.
-                Velit irure commodo qui velit nulla ipsum in.
-                Anim adipisicing proident do dolor.
+                Porque sabemos la importancia de cuidar tu entorno fisico y mental .
             </p>
             <h4>
-                Laborum est ullamco quis proident quis mollit irure ad anim aute ad aliquip aute eiusmod.
+                Un espacio de armonia puede transformar tu vida y tu mejorar tu productividad.
             </h4>
             <p>
-                Mollit nisi do sit id esse eu elit.Aliquip duis proident sint dolor.
-                Veniam esse ipsum consequat et occaecat excepteur eu consequat mollit exercitation ad nulla.
+                Te ayudamos a redisenar tu casa, negocio, restaurante, y transformarlo
+                en lugar armonioso y lleno de vida. <br/> <br/>Una plantita a la vez.
             </p>
         </div>
         <div className='about__image'>
